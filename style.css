@@ -1,0 +1,30 @@
+body {
+    font-size: 15px;
+    background-color: #ade9d2;
+}
+
+.bp {
+    display: flex;
+    justify-content: center;
+}
+
+.p {
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.s {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 836px) {
+    .p {
+        font-size: 2rem;
+    }
+
+    .s {
+        font-size: 1.5rem;
+    }
+}
